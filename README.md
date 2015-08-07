@@ -1,6 +1,8 @@
 # Activity-Tracking
 Descriptive Analysis of Personal Activity Tracking Data
 
+Project is published at <http://rpubs.com/grace-pehl/activity>
+
 This project was the first peer assessment for Reproducible Research, 
 the fifth course in the Johns Hopkins Data Science Specialization.
 
