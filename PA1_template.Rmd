@@ -84,10 +84,11 @@ plot(ave_wk_steps$interval[ave_wk_steps$weekend == "weekday"],
      ylab = "Average Number of Steps Taken", 
      main = "Steps Taken During an Average Weekday")
 plot(ave_wk_steps$interval[ave_wk_steps$weekend == "weekend"],  
-     ave_wk_steps$ave_day[ave_wk_steps$weekend == "weekend"], 
+     ave_wk_steps$average_day[ave_wk_steps$weekend == "weekend"], 
      type = "l", col = "orchid3", xlab = "Interval", ylim = c(0, 250),
      ylab = "Average Number of Steps Taken", 
      main = "Steps Taken During an Average Weekend Day")
 ```
+
 Compared to the average weekday, weekend activity begins later and is more
 consistant through the day.
